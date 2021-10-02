@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title> #SangueLaranjas - Landing Page FCamara </title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <div class="tema">
+    <button class="botaoTema" id="botaoTema" onclick="mudaTema()">Modo Grape</button>
+  </div>
+  <header class="cabecalho" id="divTema">
+    <div>
+      <img src="https://i.imgur.com/IOsmk9A.png" alt="" class="logo-cabecalho" id="logo-cabecalho">
+    </div>
+    <h3> Transformação cultural,
+      digital e cognitiva </h3>
+  </header>
+  <h1 class="page-title"> #SangueLaranjas</h1>
+  <h2 class="page-subtitle"> Voltando ao escritório!</h2>
+  <div class="container" id="container" href="#">
+    <p class="container-titulo"> Agende o seu retorno:
+    <p>
+      <label for="nomeTexto">Nome:</label>
+      <input type="text" id="nome" class="nome" step="0.01" placeholder="Digite o seu nome completo" />
+    <div class="botaoradio">
+      <label for="nomeCidade">Escritório:</label>
+      <input type="radio" id="cidade" name="cidade" value="São Paulo" checked>
+      <label for="saoPaulo">São Paulo</label>
+      <input type="radio" id="cidade" name="cidade" value="Santos">
+      <label for="santos">Santos</label>
+    </div>
+    <form action="/action_page.php">
+      <label for="data">Data de retorno:</label>
+      <input type="date" id="data" class="data" name="data" value="2021-10-02" min="2021-10-02">
+    </form>
+    <form action="/action_page.php">
+      <div class="divEstacao">
+        <label for="estacaoTrabalho">Estação de Trabalho:</label>
+        <a href="#openModal" class="botaoEstacao">Escolher</a>
+        <img src="https://i.imgur.com/EQ2kuU8.png" alt="" class="imgEscolhida" id="imgEscolhida">
+      </div>
+      <div id="openModal" class="modalDialog">
+        <div>
+          <a href="#close" title="Close" class="close">X</a>
+          <h2>Mapa do Escritório</h2>
+          <p>Clique com o mouse no número referente a estação que deseja trabalhar:</p>
+          <img src="https://i.imgur.com/qERoV6j.png" class="estacoesTrabalho" usemap="#meumapa" />
+          <map name="meumapa">
+            <area id="estacaoUm" shape="circle" coords="133,234,32" href="#" onclick="escolherEstacao1();" target="_self" />
+            <area id="estacaoDois" shape="circle" coords="62,298,32" href="#" onclick="escolherEstacao2();" target="_self" />
+            <area id="estacaoTres" shape="circle" coords="334,310,32" href="#" onclick="escolherEstacao3();" target="_self" />
+            <area id="estacaoQuatro" shape="circle" coords="367,187,32" href="#" onclick="escolherEstacao4();" target="_self" />
+            <area id="estacaoCinco" shape="circle" coords="470,260,32" href="#" onclick="escolherEstacao5();" target="_self" />
+          </map>
+        </div>
+      </div>
+    </form>
+    <div class="botaoradio2">
+      <label for="sintoma">Você teve algum sintoma de Covid nas últimas 2 semanas?</label>
+      <input type="radio" id="alte" name="alternativa" value="Sim" checked />
+      <label for="sim">Sim</label>
+      <input type="radio" id="alte" name="alternativa" value="Não" />
+      <label for="nao">Não</label>
+    </div>
+    <a href="#openModal2" id="botaoAgendar" class="botaoAgendar">Agendar</a>
+    <div id="openModal2" class="modalDialog2">
+      <div class="modalInfo">
+        <a href="#close" title="Close" class="close" id="close2">X</a>
+        <h2>Informativos</h2>
+        <p>A volta aos escritórios é algo opcional;</p>
+        <p>Os escritórios voltarão a ficar abertos no horário das 8h às 18h;</p>
+        <p>O retorno ao escritório só será possível por meio deste agendamento;</p>
+        <p>Será medida a temperatura ao chegar no escritório;</p>
+        <p>Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.</p>
+        <p>Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja o distanciamento necessário;</p>
+        <p>Pessoas que estiverem sentindo algum sintoma não devem ir trabalhar presencialmente, a indicação é para que permaneçam em casa;</p>
+        <p>Os escritórios só podem comportar até 40% dos consultores, conforme a legislação;</p>
+        <b>Você tem certeza que deseja agendar?</b>
+        <div class="modal-footer">
+          <a href="#close" class="btnNao">Não</a>
+          <a href="#close" onclick="simAgendar()" class="btnSim">Sim</a>
+          <!--           <button type="button" onclick="simAgendar()" class="btnSim">Sim</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divVideo1">
+    <div class='video1'>
+      <p class="tituloVideos"> Relembrando o que passamos</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CHcAKLVDq_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class='video2'>
+      <p class="tituloVideos"> Negócios Pós Pandemia</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ABv5Y8PySnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footerEsq">
+      <div>
+        <a href="https://www.fcamara.com.br/" target="_blank">
+          <img src="https://i.imgur.com/YzvUPDs.png" alt="" class="logoFooter">
+      </div>
+      <div class="redesSociais">
+        <a href="https://pt-br.facebook.com/grupofcamara/" target="_blank"><img class="proporcao" src="https://i.imgur.com/1ciGZGG.png"></a>
+        <a href="https://www.linkedin.com/company/fcamara-consulting-&-training/" target="_blank"><img class="proporcao" src="https://i.imgur.com/Uv6oXzi.png"></a>
+        <a href="https://www.instagram.com/grupo.fcamara/" target="_blank"><img class="proporcao" src="https://i.imgur.com/uFrb35X.png"></a>
+        <a href="https://www.youtube.com/channel/UCHsQ04xha1YKv48dSzQFlpw" target="_blank"><img class="proporcao" src="https://i.imgur.com/0Mn1irW.png"></a>
+        <a href="https://www.glassdoor.com.br/Avalia%C3%A7%C3%B5es/Grupo-FCamara-Avalia%C3%A7%C3%B5es-E668818.htm" target="_blank"><img class="proporcao" src="https://i.imgur.com/5gF9q9r.png"></a>
+        <p class="textoFooter"> © 2021 FCamara Formação e Consultoria
+        <br> Todos os direitos reservados.</p>
+      </div>
+    </div>
+    <div class="footerMeio">
+      <p>DESENVOLVIDO POR LUCAS EDUARDO ROCHA</p>
+    </div>
+    <div class="footerDir">
+      <h2 class= "tituloFooterDir">onde estamos</h2>
+      <p class = "textoFooterDir"><b>SÃO PAULO</b><br>
+        MATRIZ<br>
+        Rua Bela Cintra, 986 - 2º andar
+        Consolação<br> São Paulo - SP</p>
+      <p class = "textoFooterDir"><b>SANTOS</b><br>
+        FILIAL<br>
+        Praça Dos Expedicionários, 19
+        2º andar
+        Consolação<br> Gonzaga, Santos - SP </p>
+    </div>
+  </div>
+  <a href="https://www.fcamara.com.br/" target="_blank">
+    <img src="https://i.imgur.com/SD6nRg2.png" alt="" class="fcamara-logo">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css" />
+    <script  src="./script.js"></script>
+</body>
+</html>

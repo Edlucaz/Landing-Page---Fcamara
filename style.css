@@ -1,0 +1,411 @@
+body {
+  font-family: "MetropolisRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  background-image: url("https://i.imgur.com/OeKxJGU.png");
+  height: 100%;
+  width: 100%;
+}
+.cabecalho {
+  align-items: center;
+  background: #cd3bff;
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0px 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.logo-cabecalho {
+  width: 280px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+h3 {
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  text-shadow: 3px 3px 3px #0e1d2f;
+}
+.page-title {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: white;
+  margin: 0px 350px 0px;
+  font-size: 48px;
+  text-shadow: 3px 3px 3px #0e1d2f;
+}
+.page-subtitle {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: white;
+  margin: 0px 350px 0px;
+  font-size: 36px;
+  text-shadow: 3px 3px 3px #0e1d2f;
+}
+.fcamara-logo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 140px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.container {
+  background: #fffafa;
+  color: #1c1c1c;
+  border: 4px solid #cd3bff;
+  margin: 30px 250px 40px;
+  padding: 15px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  text-align: left;
+}
+.container-titulo {
+  color: black;
+  margin: 15px 15px 15px;
+  font-size: 24px;
+  text-align: center;
+}
+.botaoTema {
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: #cd3bff;
+  border: 2px solid #fe6401;
+  color: #f3d928;
+  border-radius: 100px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+.nome {
+  margin: 0px 0px 0px;
+  width: 350px;
+  padding: 6px;
+  border-radius: 100px;
+  background: #fe6401;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+}
+.nome::placeholder {
+  color: white;
+}
+.data {
+  background: #fe6401;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+}
+.botaoradio {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin: 0px 0px 15px;
+}
+.botaoradio2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0px 15px;
+}
+.divEstacao {
+  display: flex;
+  align-items: center;
+}
+.estacoesTrabalho {
+  width: 600px;
+  height: 400px;
+}
+a.botaoEstacao {
+  width: 100px;
+  background: #fe6401;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+  margin: 15px 0px 15px 15px;
+  text-align: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.imgEscolhida {
+  margin: 15px;
+  height: 40px;
+  width: 40px;
+}
+.botaoAgendar {
+  background: #fe6401;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.divVideo1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 25px;
+}
+.video1 {
+  margin: 0 25px;
+}
+.tituloVideos {
+  color: white;
+  margin: 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 4px 4px 4px #0e1d2f;
+}
+
+.footer {
+  background: #333439;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerEsq {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 10px 0px;
+}
+.footerDir {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+.proporcao {
+  max-height: 30px;
+  padding: 5px;
+  width: 20px;
+}
+.textoFooter {
+  margin: 0px 0px 0px;
+  color: white;
+  line-height: 2.0;
+}
+.tituloFooterDir {
+  margin-block-end: 0.2em; 
+}
+.textoFooterDir {
+  line-height: 1.5;
+  margin-block-start: 0em; 
+  margin-block-end: 0.5em;
+}
+.logoFooter {
+  width: 200px;
+  margin: 0px 0px 15px;
+}
+.footerMeio {
+  color: white;
+  font-size: 18px;
+  padding-top: 200px;
+}
+.modalInfo {
+  color: Black;
+}
+/* Janela estação de trabalho */
+.modalDialog {
+  position: fixed;
+  font-family: "MetropolisRegular";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+.modalDialog2 {
+  position: fixed;
+  font-family: "MetropolisRegular";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog2:target {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+.modalDialog2 > div {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+  text-align: center;
+}
+
+.modal-footer {
+  margin: 10px 0px 0px;
+}
+.btnNao {
+  background: #fe6401;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.btnSim {
+  background: #fe6401;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.btnNovoAgendamento {
+  background: #fe6401;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 3px 3px #cd3bff;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
+.close {
+  background: #606061;
+  color: #ffffff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+  background: #00d9ff;
+}
+/*Tema noturno  */
+.dark {
+  background-image: url("https://i.imgur.com/98X1Jso.png");
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+  border: 4px solid #fe6401;
+}
+.dark .container-titulo {
+  color: #f6f6f6;
+}
+.dark .cabecalho {
+  background: #fe6401;
+}
+.dark .logo-cabecalho {
+  width: 280px;
+  filter: drop-shadow(3px 3px 3px #222);
+}
+.dark .nome {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+.dark a.botaoEstacao {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+.dark .botaoAgendar {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+.dark .data {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+.dark .botaoTema {
+  background: #fe6401;
+  border: 2px solid #b13dff;
+  color: #f3d928;
+}
+.dark .modalInfo {
+  color: Black;
+}
+
+.dark .btnNao {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+
+.dark .btnSim {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
+.dark .btnNovoAgendamento {
+  background: #b13dff;
+  box-shadow: 3px 3px 3px #fe6401;
+}
