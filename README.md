@@ -95,6 +95,11 @@ Relembrando o que passamos - nome do vídeo: #JUNTOSADISTÂNCIA - Vídeo de mar�
 
 Negócios Pós Pandemia - nome do vídeo: [OMNI] Negócios Pós Pandemia - Vídeo de agosto de 2020, disponível no YouTube do Grupo FCamara. Conteúdo: Giovanna Zacchi, Head Commercial da Omnicommerce explicando um pouco sobre os cenários de negócios pós pandemia. Intuito na página: mostrar um pouco como a visão de trabalhar em HOME OFFICE mudou e como isso afeta os negócios no futuro.
 
+# Responsividade da Página:
+Alteração da estrutura da página para resolução com menos de 1100 pixels de largura:
+
+![Responsividade](https://user-images.githubusercontent.com/91226344/135913156-22bcbf76-9cfc-4d52-83ca-2c44e736a515.PNG)
+
 # Necessidades e Possíveis Melhorias:
      Interação com banco de dados da empresa;
      Planta do escritório real da empresa para seleção de estações de trabalho;
