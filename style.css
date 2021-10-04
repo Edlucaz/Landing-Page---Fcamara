@@ -409,7 +409,7 @@ a.botaoEstacao {
   box-shadow: 3px 3px 3px #fe6401;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .cabecalho {
     flex-direction: column;
     justify-content: space-around;
