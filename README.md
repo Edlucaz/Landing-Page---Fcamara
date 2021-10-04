@@ -1,5 +1,5 @@
 # Landing-Page---Fcamara
-  Esse projeto foi realizado para um processo seletivo do Grupo Fcamara para iniciantes no mundo da programação, sendo propositalmente feito após a Imersão Dev da Alura, evento no qual consiste em 10 aulas ao longo de 2 semanas para as pessoas aprenderam na prática como programar. 
+  Esse projeto foi realizado para um processo seletivo do Grupo Fcamara para iniciantes no mundo da programação, sendo propositalmente feito após a Imersão Dev da Alura, evento no qual consiste em 10 aulas ao longo de 2 semanas para as pessoas aprenderem na prática como programar. 
   O processo seletivo consiste em um desafio com a seguinte problemática:
 
 ![Capturar](https://user-images.githubusercontent.com/91226344/135895582-b2c8f32e-698e-49df-b706-4bdc7da6cbc1.PNG)
@@ -8,17 +8,17 @@
   A ideia consiste na criação de uma Landing Page para que os colaboradores da FCamara agendassem possíveis idas aos escritórios da empresa, de modo que esse agendamento assegurasse o processo.
 
 # Funcionamento da página
-  Para o agendamento é necessário que o coloborador da FCamara preencha os dados apresentados no seguinte formulário.
+  Para o agendamento é necessário que o colaborador da FCamara preencha os dados apresentados no seguinte formulário.
 
   ![Imagem 2](https://user-images.githubusercontent.com/91226344/135896315-5a97915a-c899-46f8-a1cc-cc556fc2066d.PNG)
 
-*os dados requiritos no formulário são respectivos aos apresentados pela empresa no regulmaneto do processo seletivo.
+*Os dados requeridos no formulário são respectivos aos apresentados pela empresa no regulamento do processo seletivo.
 
   É importante ressaltar que são necessárias algumas condições para que a pessoa consiga fazer o agendamento, por exemplo:
 
       Não deixar o campo do nome vazio (alerta1);
       Não selecionar alguma estação de trabalho (alerta1);
-      Ter algum sintoma de Covid nas últimas 2 semanas (alerta2);
+      Não ter algum sintoma de Covid nas últimas 2 semanas (alerta2);
 
   Caso essas condições não seja cumpridas, serão exibidos os seguintes alertas:
 
@@ -36,11 +36,11 @@
 
   ![Orange](https://user-images.githubusercontent.com/91226344/135899083-8d6b8a44-05a7-4868-a0c4-2eec52127c66.png) ---------> ![Orange 1](https://user-images.githubusercontent.com/91226344/135899129-e84a451d-fe70-4871-b9cc-d6317f69c481.png)
 
-  Com todas as informações corretas, outra janela modal será aberto apresentando os informativos, disponibilizados pela empresa no regulamento do processo seletivo, seguidos de um botão de confirmação do agendamento:
+  Com todas as informações preenchidas, outra janela modal será aberta apresentando os informativos, disponibilizados pela empresa no regulamento do processo seletivo, seguidos de um botão de confirmação do agendamento:
 
 ![Informativos](https://user-images.githubusercontent.com/91226344/135900154-9cda84e1-afa1-4d6a-a2f4-a8e0a55a77b1.PNG)
 
-  Ao clicar em "Não", a janela se fechará, mas os dados continuaram preenchidos caso o usuário queira tentar novamente.
+  Ao clicar em "Não", a janela se fechará, mas os dados continuarão preenchidos caso o usuário queira tentar novamente.
 
   Ao clicar em "Sim", com todas as condições cumpridas, a janela se fechará e o formulário será trocado por um "comprovante" de agendamento contendo todas as informações inseridas.
 
@@ -48,7 +48,7 @@
 
   Realizar outro agendamento:
 
-  Juntamente com o comprovante de agendamento, existe um botão chamado "Novo Agendamento", ao clicar nele, a página será recarrega sendo possível agendar outro dia.
+  Juntamente com o comprovante de agendamento, existe um botão chamado "Novo Agendamento", ao clicar nele, a página será recarregada sendo possível agendar outro dia.
 
 # Layout da Página:
 
@@ -81,25 +81,25 @@
 ![Rodapé](https://user-images.githubusercontent.com/91226344/135906386-ed39b8cf-3741-4aee-9ae3-4389e440b464.PNG)
 
 
-  Além disso todos os icones abaixo do logo do GRUPO FCAMARA redirecionam o usuário para as redes sociais e plataformas da empresa, assim com o logo do rodapé e o logo fixo no canto inferior direito redirecionam o usuário para o site da empresa. Vale ressaltar que o usuário sempre será enviado através de uma nova aba para que não seja removida da Landing Page.
+  Além disso, todos os ícones abaixo do logo do GRUPO FCAMARA redirecionam o usuário para as redes sociais e plataformas da empresa, assim com o logo do rodapé e o logo fixo no canto inferior direito redirecionam o usuário para o site da empresa. Vale ressaltar que o usuário sempre será enviado através de uma nova aba para que não seja removido da Landing Page.
 
 Outros Elementos:
 
 Cabeçalho contendo logo e lema da empresa;
 
-Título da página fazendo referência a volta dos funcionários as atividades presencial.
+Título da página fazendo referência à volta dos funcionários as atividades presencial.
 
 Vídeos:
 
-Relembrando o que passamo - nome do vídeo: #JUNTOSADISTÂNCIA - Vídeo de março de 2020, disponível no youtube do Grupo FCamara. Conteúdo: apelo para que as pessoas fiquem em casa nos primeiros meses da pandemia, juntamente com dicas para as pessoas se protegerem do vírus. Intuíto na página: para que o colaborador lembre-se da importância que teve o período em que esteve afastado do escritório.
+Relembrando o que passamos - nome do vídeo: #JUNTOSADISTÂNCIA - Vídeo de março de 2020, disponível no YouTube do Grupo FCamara. Conteúdo: apelo para que as pessoas fiquem em casa nos primeiros meses da pandemia, juntamente com dicas para as pessoas se protegerem do vírus. Intuito na página: para que o colaborador lembre-se da importância que teve o período em que esteve afastado do escritório.
 
-Negócios Pós Pandemia - nome do vídeo: [OMNI] Negócios Pós Pandemia - Vídeo de agosto de 2020, disponível no youtube do Grupo FCamara. Conteúdo: Giovanna Zacchi, Head Commercial da Omnicommerce explicando um pouco sobre os cenários de negócios pós pandia. Intuíto na página: mostrar um pouco como a visão de trabalhar em HOME OFFICE mudou e como isso afeta os negócios no futuro.
+Negócios Pós Pandemia - nome do vídeo: [OMNI] Negócios Pós Pandemia - Vídeo de agosto de 2020, disponível no YouTube do Grupo FCamara. Conteúdo: Giovanna Zacchi, Head Commercial da Omnicommerce explicando um pouco sobre os cenários de negócios pós pandemia. Intuito na página: mostrar um pouco como a visão de trabalhar em HOME OFFICE mudou e como isso afeta os negócios no futuro.
 
 # Necessidades e Possíveis Melhorias:
      Interação com banco de dados da empresa;
      Planta do escritório real da empresa para seleção de estações de trabalho;
      Alterar o padrão de data para o brasileiro;
-     Novo agendamento sem a necessidade recarregar a página;
+     Novo agendamento sem a necessidade de recarregar a página;
      Melhorar ainda mais a responsividade da página para diferentes tamanhos de tela;
     
 # Tecnologias utilizadas
